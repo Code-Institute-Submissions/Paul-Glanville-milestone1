@@ -3,25 +3,17 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
-.nav{
+#menu{
     color: #777;
-    padding: 0;
-    margin-bottom: 0;
+    display: inline-block;
     border: 0;
-    width: 100%;
-    display: inline;
-    list-style-type: none;
-    float: right;
-}
-.nav-menu{
-    color: #777;
-    display: inline;
-    width: 100%;
-    border: 0;
-    float: right;
+    float: left;
+    margin-left: 20px;
 }
 
 #profile-image{
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     padding: 0;
     border: solid #000;
