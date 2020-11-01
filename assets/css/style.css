@@ -4,13 +4,19 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 #menu{
-    color: #777;
-    display: inline-block;
-    border: 0;
-    float: left;
-    margin-left: 20px;
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    line-height: 75px;
 }
-
+#menu li{
+    float: right;
+    margin-right: 20px;
+}
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
 #profile-image{
     width: 200px;
     height: 200px;
