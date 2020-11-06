@@ -33,21 +33,28 @@ section{
 section h1{
     margin-left: 25px;
     padding-left: 25px;
+    position: relative;
+    z-index: 2;
 }
 section h2{
     margin-left: 30px;
     padding-left: 30px;
+    position: relative;
+    z-index: 2;
 }
 .brief{
     margin: 20px;
+    position: relative;
+    z-index: 2;
 }
 .background-image{
     background: url(../images/london.jpg) no-repeat center center;
-    height: 600px;
+    height: 400px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
-    position: relative;
+    position: absolute;
+    z-index: 1;
 }
 #profile-image{
     width: 200px;
@@ -58,6 +65,8 @@ section h2{
     border: solid #000;
     border-width: 1px;
     border-radius: 50%;
+    position: relative;
+    z-index: 2;
 }
 
 .foot{
