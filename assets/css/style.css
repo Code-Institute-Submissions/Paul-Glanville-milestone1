@@ -42,9 +42,10 @@ section h2{
     margin: 20px;
 }
 .background-image{
-    background: url(../images/london.jpg) no-repeat center;
-    width: 100%;
+    background: url(../images/london.jpg) no-repeat center center;
     height: 600px;
+    width: 100%;
+    overflow: hidden;
     position: relative;
 }
 #profile-image{
