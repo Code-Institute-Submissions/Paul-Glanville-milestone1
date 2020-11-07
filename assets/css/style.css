@@ -58,12 +58,13 @@ section h2{
 }
 #box{
     opacity: 0.75;
-    margin-right: 65%;
+    width: 200px;
     padding-left: 20px;
     background-color: #444;
 }
 #top-right{
-    margin-left: 65%;
+    width: 200px;
+    margin-left: 75%;
     padding-right: 30px;
     padding-left: 20px;
     opacity: 0.75;
