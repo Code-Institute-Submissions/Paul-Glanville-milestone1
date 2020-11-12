@@ -61,6 +61,13 @@ section h2{
     padding-left: 20px;
     background-color: #444;
 }
+.right{
+    margin: 20px;
+    opacity: 1;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
 #top-right{
     margin-left: 75%;
     padding-right: 30px;
