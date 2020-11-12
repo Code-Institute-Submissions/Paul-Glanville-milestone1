@@ -80,7 +80,7 @@ section h2{
     z-index: 1;
 }
 .bg-image{
-    background: url(../images/parliament.jpg) no-repeat;
+    background: url(../images/parliament.jpg) no-repeat center;
     height: 480px;
     width: 100%;
     background-size: cover;
@@ -89,7 +89,7 @@ section h2{
     z-index: 1;
 }
 .bg-image2{
-    background: url(../images/st-micheals-mount.jpg) no-repeat;
+    background: url(../images/st-micheals-mount.jpg) no-repeat center;
     height: 480px;
     width: 100%;
     background-size: cover;
