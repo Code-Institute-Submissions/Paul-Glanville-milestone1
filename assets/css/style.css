@@ -31,8 +31,8 @@ section{
 }
 .container{
     display: inline-grid;
-    grid-template-columns: 30% 40% 30%;
-    grid-template-rows: 200px 10% 10% 15%;
+    grid-template-columns: 230px 60% 230px;
+    grid-template-rows: 230px 50px 50px 50px;
     grid-template-areas: "main middle info"
                          "name"
                          "profile"
@@ -45,11 +45,13 @@ section{
     }
     .item-b{
         grid-area: name;
+        align-items: center;
         grid-column: 1;
         grid-row: 2/4;
     }
     .item-c{
         grid-area: profile;
+        align-items: center;
         grid-column: 1;
         grid-row: 3/4;
     }
