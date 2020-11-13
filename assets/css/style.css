@@ -32,7 +32,7 @@ section{
 .container{
     display: inline-grid;
     grid-template-columns: 30% 40% 30%;
-    grid-template-rows: 20% 10% 10% 15%;
+    grid-template-rows: 200px 10% 10% 15%;
     grid-template-areas: "main middle info"
                          "name"
                          "profile"
@@ -51,7 +51,7 @@ section{
     .item-c{
         grid-area: profile;
         grid-column: 1;
-        grid-row: 3;
+        grid-row: 3/4;
     }
     .item-d{
         grid-area: bio;
