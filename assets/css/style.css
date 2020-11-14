@@ -31,12 +31,13 @@ section{
 }
 .container{
     display: inline-grid;
-    grid-template-columns: 230px 60% 300px;
+    width: 100%;
+    grid-template-columns: 410px 45% 410px;
     grid-template-rows: 230px 50px 50px 150px;
     grid-template-areas: "main middle info"
-                         "name"
-                         "profile"
-                         "bio"
+                         "name . ."
+                         "profile . ."
+                         "bio . .";
     }
     .item-a{
         grid-area: main;
@@ -63,7 +64,7 @@ section{
     .item-e{
         grid-area: info;
         grid-column: 3;
-        grid-row: 1/4;
+        grid-row: 1;
     }
 section h1{
     margin-left: 25px;
