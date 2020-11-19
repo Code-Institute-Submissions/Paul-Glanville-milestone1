@@ -178,24 +178,62 @@ section .heading{
     display: inline;
     font-size: 150%;
 }
+.line{
+    width: 100%;
+    margin: 10px 0;
+    height: 5px;
+    background: grey;
+}
 .timeline{
+    display: block;
+    width: 95%;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.timeline-top,
+.timeline-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.timeline-top .top-content,
+.timeline-bottom .bottom-content{
+    padding: 0 25px;
     position: relative;
-    max-width: 1520;
-    margin: 0 auto;
 }
-.timeline:after{
+.top-content:before,
+.bottom-content:before{
     content: '';
+    height: 15px;
+    width: 15px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: #000;
     position: absolute;
-    width: 6px;
-    background-color: #444;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
+    left: 0;
 }
-.content{
+.top-content:before{
+    bottom: -40px;
 }
-
+.bottom-content:before{
+    top: -40px;
+}
+.top-content:after,
+.bottom-content:after{
+    content: '';
+    height: 50px;
+    width: 2px;
+    background: #8accc6;
+    position: absolute;
+}
+.top-content:after{
+    left: 10px;
+    bottom: -40px;
+}
+.bottom-content:after{
+    left: 10px;
+    bottom: -40px;
+}
 .click{
 
 }
