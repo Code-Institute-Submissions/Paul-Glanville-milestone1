@@ -75,7 +75,7 @@ section h1{
     position: relative;
     z-index: 2;
 }
-section h2{
+section .heading{
     border: 1px;
     margin-left: 35px;
     padding-left: 35px;
@@ -178,6 +178,24 @@ section h2{
     display: inline;
     font-size: 150%;
 }
+.timeline{
+    position: relative;
+    max-width: 1520;
+    margin: 0 auto;
+}
+.timeline:after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #444;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.content{
+}
+
 .click{
-    
+
 }
