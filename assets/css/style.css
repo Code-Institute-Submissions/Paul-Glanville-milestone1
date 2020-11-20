@@ -180,20 +180,24 @@ section .heading{
 }
 .line{
     width: 100%;
-    margin: 10px 0;
+    margin: 50px 0;
     height: 5px;
     background: grey;
 }
 .timeline{
     display: block;
     width: 95%;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     margin-left: 10px;
 }
 .timeline-top,
 .timeline-bottom{
     display: flex;
     flex-direction: row;
+}
+.timeline-bottom{
+    padding: 40px;
 }
 .timeline-top .top-content,
 .timeline-bottom .bottom-content{
@@ -205,7 +209,7 @@ section .heading{
     content: '';
     height: 15px;
     width: 15px;
-    line-height: 20px;
+    line-height: 15px;
     text-align: center;
     border-radius: 50%;
     background: #000;
@@ -213,17 +217,17 @@ section .heading{
     left: 0;
 }
 .top-content:before{
-    bottom: -40px;
+    bottom: -50px;
 }
 .bottom-content:before{
-    top: -40px;
+    top: -50px;
 }
 .top-content:after,
 .bottom-content:after{
     content: '';
     height: 50px;
     width: 2px;
-    background: #8accc6;
+    background: #000;
     position: absolute;
 }
 .top-content:after{
@@ -232,7 +236,7 @@ section .heading{
 }
 .bottom-content:after{
     left: 10px;
-    bottom: -40px;
+    top: -40px;
 }
 .click{
 
