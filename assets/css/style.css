@@ -32,7 +32,7 @@ section{
 .container{
     display: inline-grid;
     width: 100%;
-    grid-template-columns: 26% 48% 26%;
+    grid-template-columns: 27% 47% 26%;
     grid-template-rows: 230px 50px 50px 150px;
     grid-template-areas: "main middle info"
                          "name . ."
@@ -70,18 +70,20 @@ section{
     display: inline-grid;
     width: 100%;
     grid-template-columns: 26% 48% 26%;
-    grid-template-rows: 230px 50px 50px 150px;
+    grid-template-rows: 230px 230px;
     grid-template-areas: "main middle info"
 }
 .item-one{
     grid-area: main;
     grid-column: 1;
-    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: 2
 }
 .item-two{
     grid-area: info;
     grid-column: 3;
-    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 section h1{
     margin-left: 25px;
@@ -102,7 +104,7 @@ section .heading{
     z-index: 2;
 }
 .brief{
-    margin: 20px;
+    margin: 15px;
     opacity: 1;
     color: #fff;
     position: relative;
@@ -195,6 +197,10 @@ section .heading{
     display: inline;
     font-size: 150%;
 }
+#history{
+    padding-left: 20px;
+    border: 20px;
+}
 .line{
     width: 100%;
     margin: 50px 0;
@@ -261,7 +267,7 @@ section .heading{
 @media screen and(max-width: 1393px){
     .background-image{
     background: url(../images/london.jpg) no-repeat;
-    height: 480px;
+    height: 380px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -270,7 +276,7 @@ section .heading{
 }
 .bg-image{
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 480px;
+    height: 380px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -279,7 +285,7 @@ section .heading{
 }
 .bg-image2{
     background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 480px;
+    height: 380px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -289,7 +295,7 @@ section .heading{
 @media screen and(max-width: 943px){
     .background-image{
     background: url(../images/london.jpg) no-repeat;
-    height: 480px;
+    height: 280px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -298,7 +304,7 @@ section .heading{
 }
 .bg-image{
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 480px;
+    height: 280px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -307,17 +313,17 @@ section .heading{
 }
 .bg-image2{
     background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 480px;
+    height: 280px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
     position: absolute;
     z-index: 1;
 }
-@media screen and(max-width: 800px){
+@media screen and(max-width: 736px){
     .background-image{
     background: url(../images/london.jpg) no-repeat;
-    height: 480px;
+    height: 180px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -326,7 +332,7 @@ section .heading{
 }
 .bg-image{
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 480px;
+    height: 180px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -335,7 +341,7 @@ section .heading{
 }
 .bg-image2{
     background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 480px;
+    height: 180px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
