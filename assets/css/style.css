@@ -267,7 +267,7 @@ section .heading{
 @media screen and(max-width: 1393px){
     .background-image{
     background: url(../images/london.jpg) no-repeat;
-    height: 380px;
+    height: 390px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -276,7 +276,7 @@ section .heading{
 }
 .bg-image{
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 380px;
+    height: 390px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -285,12 +285,37 @@ section .heading{
 }
 .bg-image2{
     background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 380px;
+    height: 390px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
     position: absolute;
     z-index: 1;
+}
+#top-right{
+    padding-right: 200px;
+    padding-left: 100px;
+    opacity: 0.75;
+    position: relative;
+    background-color: #444;
+    z-index: 2;
+}
+.right{
+    margin: 100px;
+    opacity: 1;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.container{
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: 27% 47% 26%;
+    grid-template-rows: 230px 50px 50px 160px;
+    grid-template-areas: "main middle info"
+                         "name . ."
+                         "profile . ."
+                         "bio . .";
 }
 @media screen and(max-width: 943px){
     .background-image{
