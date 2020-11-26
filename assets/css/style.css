@@ -264,72 +264,10 @@ section .heading{
 .click{
 
 }
-@media screen and(max-width: 1200px){
-    .background-image{
-    background: url(../images/london.jpg) no-repeat;
-    height: 390px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
+@media screen and(min-width: 768px) and(max-width: 1200px){
+body{
+    font-size: 80px;
 }
-.bg-image{
-    background: url(../images/parliament.jpg) no-repeat center;
-    height: 390px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image2{
-    background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 390px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-#top-right{
-    padding-right: 200px;
-    padding-left: 100px;
-    opacity: 0.75;
-    position: relative;
-    background-color: #444;
-    z-index: 2;
-}
-.right{
-    margin: 100px;
-    opacity: 1;
-    color: #fff;
-    position: relative;
-    z-index: 2;
-}
-.container{
-    display: inline-grid;
-    width: 100%;
-    grid-template-columns: 30% 44% 26%;
-    grid-template-rows: 230px 50px 50px 160px;
-    grid-template-areas: "main middle info"
-                         "name . ."
-                         "profile . ."
-                         "bio . .";
-}
-.brief{
-    margin: 15px;
-    opacity: 1;
-    color: #fff;
-    position: relative;
-    z-index: 2;
-}
-#box{
-    opacity: 0.75;
-    padding-left: 20px;
-    background-color: #444;
-}
-@media screen and(max-width: 800px){
 .background-image{
     background: url(../images/london.jpg) no-repeat;
     height: 280px;
@@ -360,12 +298,14 @@ section .heading{
 .container{
     display: inline-grid;
     width: 100%;
-    grid-template-columns: 27% 47% 26%;
+    grid-template-columns: 34% 40% 26%;
     grid-template-rows: 230px 50px 50px 160px;
-    grid-template-areas: "main middle info"
-                         "name . ."
-                         "profile . ."
-                         "bio . .";
+}
+.item-d{
+    grid-area: bio;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 4/4;
 }
 #top-right{
     padding-right: 200px;
@@ -394,7 +334,10 @@ section .heading{
     padding-left: 15px;
     background-color: #444;
 }
-@media screen and(max-width: 500px){
+@media screen and(max-width: 768px){
+body{
+    font-size: 30px;
+}
 .background-image{
     background: url(../images/london.jpg) no-repeat;
     height: 180px;
@@ -425,12 +368,14 @@ section .heading{
 .container{
     display: inline-grid;
     width: 100%;
-    grid-template-columns: 27% 47% 26%;
+    grid-template-columns: 30% 44% 26%;
     grid-template-rows: 230px 50px 50px 160px;
-    grid-template-areas: "main middle info"
-                         "name . ."
-                         "profile . ."
-                         "bio . .";
+}
+.item-d{
+    grid-area: bio;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 4/4;
 }
 #top-right{
     padding-right: 200px;
