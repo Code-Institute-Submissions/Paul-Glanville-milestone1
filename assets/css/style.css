@@ -264,7 +264,7 @@ section .heading{
 .click{
 
 }
-@media screen and(max-width: 1393px){
+@media screen and(max-width: 1200px){
     .background-image{
     background: url(../images/london.jpg) no-repeat;
     height: 390px;
@@ -310,6 +310,56 @@ section .heading{
 .container{
     display: inline-grid;
     width: 100%;
+    grid-template-columns: 30% 44% 26%;
+    grid-template-rows: 230px 50px 50px 160px;
+    grid-template-areas: "main middle info"
+                         "name . ."
+                         "profile . ."
+                         "bio . .";
+}
+.brief{
+    margin: 15px;
+    opacity: 1;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+#box{
+    opacity: 0.75;
+    padding-left: 20px;
+    background-color: #444;
+}
+@media screen and(max-width: 800px){
+.background-image{
+    background: url(../images/london.jpg) no-repeat;
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.bg-image{
+    background: url(../images/parliament.jpg) no-repeat center;
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.bg-image2{
+    background: url(../images/st-micheals-mount.jpg) no-repeat center;
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.container{
+    display: inline-grid;
+    width: 100%;
     grid-template-columns: 27% 47% 26%;
     grid-template-rows: 230px 50px 50px 160px;
     grid-template-areas: "main middle info"
@@ -317,10 +367,37 @@ section .heading{
                          "profile . ."
                          "bio . .";
 }
-@media screen and(max-width: 943px){
-    .background-image{
+#top-right{
+    padding-right: 200px;
+    padding-left: 100px;
+    opacity: 0.75;
+    position: relative;
+    background-color: #444;
+    z-index: 2;
+}
+.right{
+    margin: 75px;
+    opacity: 1;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.brief{
+    margin: 10px;
+    opacity: 1;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+#box{
+    opacity: 0.75;
+    padding-left: 15px;
+    background-color: #444;
+}
+@media screen and(max-width: 500px){
+.background-image{
     background: url(../images/london.jpg) no-repeat;
-    height: 280px;
+    height: 180px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -329,34 +406,6 @@ section .heading{
 }
 .bg-image{
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 280px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image2{
-    background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 280px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-@media screen and(max-width: 736px){
-    .background-image{
-    background: url(../images/london.jpg) no-repeat;
-    height: 180px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image{
-    background: url(../images/parliament.jpg) no-repeat center;
     height: 180px;
     width: 100%;
     background-size: cover;
@@ -372,4 +421,41 @@ section .heading{
     overflow: hidden;
     position: absolute;
     z-index: 1;
+}
+.container{
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: 27% 47% 26%;
+    grid-template-rows: 230px 50px 50px 160px;
+    grid-template-areas: "main middle info"
+                         "name . ."
+                         "profile . ."
+                         "bio . .";
+}
+#top-right{
+    padding-right: 200px;
+    padding-left: 100px;
+    opacity: 0.75;
+    position: relative;
+    background-color: #444;
+    z-index: 2;
+}
+.right{
+    margin: 100px;
+    opacity: 1;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.brief{
+    margin: 10px;
+    opacity: 1;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+#box{
+    opacity: 0.75;
+    padding-left: 15px;
+    background-color: #444;
 }
