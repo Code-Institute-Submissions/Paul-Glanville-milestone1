@@ -264,77 +264,7 @@ section .heading{
 .click{
 
 }
-@media screen and(min-width: 768px) and(max-width: 1200px){
-body{
-    font-size: 80px;
-}
-.background-image{
-    background: url(../images/london.jpg) no-repeat;
-    height: 280px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image{
-    background: url(../images/parliament.jpg) no-repeat center;
-    height: 280px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image2{
-    background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 280px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.container{
-    display: inline-grid;
-    width: 100%;
-    grid-template-columns: 34% 40% 26%;
-    grid-template-rows: 230px 50px 50px 160px;
-}
-.item-d{
-    grid-area: bio;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row: 4/4;
-}
-#top-right{
-    padding-right: 200px;
-    padding-left: 100px;
-    opacity: 0.75;
-    position: relative;
-    background-color: #444;
-    z-index: 2;
-}
-.right{
-    margin: 75px;
-    opacity: 1;
-    color: #fff;
-    position: relative;
-    z-index: 2;
-}
-.brief{
-    margin: 10px;
-    opacity: 1;
-    color: #fff;
-    position: relative;
-    z-index: 2;
-}
-#box{
-    opacity: 0.75;
-    padding-left: 15px;
-    background-color: #444;
-}
-@media screen and(max-width: 768px){
+@media screen and(max-width: 943px){
 body{
     font-size: 30px;
 }
@@ -368,39 +298,64 @@ body{
 .container{
     display: inline-grid;
     width: 100%;
-    grid-template-columns: 30% 44% 26%;
-    grid-template-rows: 230px 50px 50px 160px;
+    grid-template-columns: 100%;
+    grid-template-rows: 230px 50px 50px 150px;
+    grid-template-areas: "main middle"
+                         "name . ."
+                         "profile . ."
+                         "bio . ."
+                         "info";
 }
-.item-d{
-    grid-area: bio;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row: 4/4;
-}
-#top-right{
-    padding-right: 200px;
-    padding-left: 100px;
-    opacity: 0.75;
-    position: relative;
-    background-color: #444;
-    z-index: 2;
-}
-.right{
-    margin: 100px;
-    opacity: 1;
-    color: #fff;
+#profile-image{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 15px;
+    border: solid #000;
+    border-width: 1px;
+    border-radius: 50%;
     position: relative;
     z-index: 2;
 }
-.brief{
-    margin: 10px;
-    opacity: 1;
-    color: #fff;
-    position: relative;
-    z-index: 2;
+@media screen and(max-width: 1393px){
+body{
+    font-size: 80px;
 }
-#box{
-    opacity: 0.75;
-    padding-left: 15px;
-    background-color: #444;
+.background-image{
+    background: url(../images/london.jpg) no-repeat;
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.bg-image{
+    background: url(../images/parliament.jpg) no-repeat center;
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.bg-image2{
+    background: url(../images/st-micheals-mount.jpg) no-repeat center;
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.container{
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 230px 50px 50px 150px;
+    grid-template-areas: "main middle info"
+                         "name . ."
+                         "profile . ."
+                         "bio . .";
 }
