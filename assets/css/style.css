@@ -264,13 +264,10 @@ section .heading{
 .click{
 
 }
-@media screen and(max-width: 943px){
-body{
-    font-size: 30px;
-}
+@media screen and (max-width: 1393px){
 .background-image{
     background: url(../images/london.jpg) no-repeat;
-    height: 180px;
+    height: 480px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -279,7 +276,7 @@ body{
 }
 .bg-image{
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 180px;
+    height: 480px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -288,7 +285,95 @@ body{
 }
 .bg-image2{
     background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 180px;
+    height: 480px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.container{
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: 30% 44% 26%;
+    grid-template-rows: 230px 50px 50px 150px;
+    grid-template-areas: "main middle info"
+                         "name . ."
+                         "profile . ."
+                         "bio . .";  
+}
+.item-d{
+    grid-area: bio;
+    grid-column: 1;
+    grid-row: 4/4;
+}
+@media screen and (max-width: 943px){
+
+.background-image{
+    background: url(../images/london.jpg) no-repeat;
+    height: 480px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.bg-image{
+    background: url(../images/parliament.jpg) no-repeat center;
+    height: 480px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.bg-image2{
+    background: url(../images/st-micheals-mount.jpg) no-repeat center;
+    height: 480px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.container{
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: 38% 36% 26%;
+    grid-template-rows: 230px 50px 50px 150px;
+    grid-template-areas: "main middle info"
+                         "name . ."
+                         "profile . ."
+                         "bio . .";
+}
+.item-d{
+    grid-area: bio;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 4/4;
+}
+@media screen and (max-width: 600px){
+.background-image{
+    background: url(../images/london.jpg) no-repeat;
+    height: 380px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.bg-image{
+    background: url(../images/parliament.jpg) no-repeat center;
+    height: 380px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.bg-image2{
+    background: url(../images/st-micheals-mount.jpg) no-repeat center;
+    height: 380px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -306,56 +391,16 @@ body{
                          "bio . ."
                          "info";
 }
-#profile-image{
-    width: 200px;
-    height: 200px;
-    margin: 0;
-    margin-top: 20px;
-    margin-left: 15px;
-    border: solid #000;
-    border-width: 1px;
-    border-radius: 50%;
-    position: relative;
-    z-index: 2;
-}
-@media screen and(max-width: 1393px){
-body{
-    font-size: 80px;
-}
-.background-image{
-    background: url(../images/london.jpg) no-repeat;
-    height: 280px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image{
-    background: url(../images/parliament.jpg) no-repeat center;
-    height: 280px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image2{
-    background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 280px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.container{
+.container-two{
     display: inline-grid;
     width: 100%;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 230px 50px 50px 150px;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 230px 230px;
     grid-template-areas: "main middle info"
-                         "name . ."
-                         "profile . ."
-                         "bio . .";
+}
+.item-e{
+    display: hide;
+    grid-area: info;
+    grid-column: 3;
+    grid-row: 1;
 }
