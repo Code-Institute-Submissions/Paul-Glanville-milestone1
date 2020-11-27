@@ -265,144 +265,244 @@ section .heading{
 
 }
 @media screen and (max-width: 1393px){
-.background-image{
-    background: url(../images/london.jpg) no-repeat;
-    height: 480px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image{
-    background: url(../images/parliament.jpg) no-repeat center;
-    height: 480px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image2{
-    background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 480px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.container{
-    display: inline-grid;
-    width: 100%;
-    grid-template-columns: 30% 44% 26%;
-    grid-template-rows: 230px 50px 50px 150px;
-    grid-template-areas: "main middle info"
-                         "name . ."
-                         "profile . ."
-                         "bio . .";  
-}
-.item-d{
-    grid-area: bio;
-    grid-column: 1;
-    grid-row: 4/4;
+    .background-image{
+        background: url(../images/london.jpg) no-repeat;
+        height: 480px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+    .bg-image{
+        background: url(../images/parliament.jpg) no-repeat center;
+        height: 480px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+    .bg-image2{
+        background: url(../images/st-micheals-mount.jpg) no-repeat center;
+        height: 480px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+    .container{
+        display: inline-grid;
+        width: 100%;
+        grid-template-columns: 30% 44% 26%;
+        grid-template-rows: 230px 50px 50px 150px;
+        grid-template-areas: "main middle info"
+                            "name . ."
+                            "profile . ."
+                            "bio . .";  
+    }
+    .item-d{
+        grid-area: bio;
+        grid-column: 1;
+        grid-row: 4/4;
+    }
 }
 
 @media screen and (max-width: 943px){
-
-.background-image{
-    background: url(../images/london.jpg) no-repeat;
-    height: 480px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image{
-    background: url(../images/parliament.jpg) no-repeat center;
-    height: 480px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image2{
-    background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 480px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.container{
-    display: inline-grid;
-    width: 100%;
-    grid-template-columns: 38% 36% 26%;
-    grid-template-rows: 230px 50px 50px 150px;
-    grid-template-areas: "main middle info"
-                         "name . ."
-                         "profile . ."
-                         "bio . .";
-}
-.item-d{
-    grid-area: bio;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row: 4/4;
+    .background-image{
+        background: url(../images/london.jpg) no-repeat;
+        height: 480px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+    .bg-image{
+        background: url(../images/parliament.jpg) no-repeat center;
+        height: 480px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+    .bg-image2{
+        background: url(../images/st-micheals-mount.jpg) no-repeat center;
+        height: 480px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+    .container{
+        display: inline-grid;
+        width: 100%;
+        grid-template-columns: 38% 36% 26%;
+        grid-template-rows: 230px 50px 50px 150px;
+        grid-template-areas: "main middle info"
+                            "name . ."
+                            "profile . ."
+                            "bio . .";
+    }
+    .item-d{
+        grid-area: bio;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 4/4;
+    }
+    .timeline-top,
+    .timeline-bottom{
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .top-content:before,
+    .bottom-content:before{
+        display: none;
+        content: '';
+        height: 15px;
+        width: 15px;
+        line-height: 15px;
+        text-align: center;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        left: 0;
+    }
+    .top-content:before{
+        display: none;
+        bottom: -50px;
+    }
+    .bottom-content:before{
+        display: none;
+        top: -50px;
+    }
+    .top-content:after,
+    .bottom-content:after{
+        display: none;
+        content: '';
+        height: 50px;
+        width: 2px;
+        background: #000;
+        position: absolute;
+    }
+    .top-content:after{
+        display: none;
+        left: 10px;
+        bottom: -40px;
+    }
+    .bottom-content:after{
+        display: none;
+        left: 10px;
+        top: -40px;
+    }
 }
 
 @media screen and (max-width: 600px){
-.background-image{
-    background: url(../images/london.jpg) no-repeat;
-    height: 380px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image{
-    background: url(../images/parliament.jpg) no-repeat center;
-    height: 380px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.bg-image2{
-    background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 380px;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
-.container{
-    display: inline-grid;
-    width: 100%;
-    grid-template-columns: 100%;
-    grid-template-rows: 230px 50px 50px 150px;
-    grid-template-areas: "main middle"
-                         "name . ."
-                         "profile . ."
-                         "bio . ."
-                         "info . .";
-}
-.container-two{
-    display: inline-grid;
-    width: 100%;
-    grid-template-columns: 33% 34% 33%;
-    grid-template-rows: 230px 230px;
-    grid-template-areas: "main middle info"
-}
+    .background-image{
+        background: url(../images/london.jpg) no-repeat;
+        height: 380px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+    .bg-image{
+        background: url(../images/parliament.jpg) no-repeat center;
+        height: 380px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+    .bg-image2{
+        background: url(../images/st-micheals-mount.jpg) no-repeat center;
+        height: 380px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+    .container{
+        display: inline-grid;
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 230px 50px 50px 150px;
+        grid-template-areas: "main middle"
+                            "name . ."
+                            "profile . ."
+                            "bio . ."
+                            "info . .";
+    }
+    .container-two{
+        display: inline-grid;
+        width: 100%;
+        grid-template-columns: 33% 34% 33%;
+        grid-template-rows: 230px 230px;
+        grid-template-areas: "main middle info"
+    }
 
-.item-e{
-    display: hide;
-    grid-area: info;
-    grid-column: 3;
-    grid-row: 1;
+    .item-e{
+        display: hide;
+        grid-area: info;
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .line{
+        width: 100%;
+        margin: 20px 0;
+        height: 5px;
+        background: grey;
+    }
+    .timeline-top,
+    .timeline-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-content:before,
+    .bottom-content:before{
+        display: none;
+        content: '';
+        height: 15px;
+        width: 15px;
+        line-height: 15px;
+        text-align: center;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        left: 0;
+    }
+    .top-content:before{
+        bottom: -50px;
+        display: none;
+    }
+    .bottom-content:before{
+        top: -50px;
+        display: none;
+    }
+    .top-content:after,
+    .bottom-content:after{
+        display: none;
+        content: '';
+        height: 50px;
+        width: 2px;
+        background: #000;
+        position: absolute;
+    }
+    .top-content:after{
+        left: 10px;
+        bottom: -40px;
+        display: none;
+    }
+    .bottom-content:after{
+        display: none;
+        left: 10px;
+        top: -40px;
+    }
+}
