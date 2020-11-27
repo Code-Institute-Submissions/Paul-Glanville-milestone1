@@ -307,6 +307,7 @@ section .heading{
     grid-column: 1;
     grid-row: 4/4;
 }
+
 @media screen and (max-width: 943px){
 
 .background-image{
@@ -352,6 +353,7 @@ section .heading{
     grid-column-end: 3;
     grid-row: 4/4;
 }
+
 @media screen and (max-width: 600px){
 .background-image{
     background: url(../images/london.jpg) no-repeat;
@@ -389,7 +391,7 @@ section .heading{
                          "name . ."
                          "profile . ."
                          "bio . ."
-                         "info";
+                         "info . .";
 }
 .container-two{
     display: inline-grid;
@@ -398,9 +400,9 @@ section .heading{
     grid-template-rows: 230px 230px;
     grid-template-areas: "main middle info"
 }
+
 .item-e{
     display: hide;
     grid-area: info;
     grid-column: 3;
     grid-row: 1;
-}
