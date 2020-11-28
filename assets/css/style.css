@@ -261,8 +261,8 @@ section .heading{
     left: 10px;
     top: -40px;
 }
-.click{
-
+form{
+    z-index: 2;
 }
 @media screen and (max-width: 1393px){
     .background-image{
@@ -353,9 +353,8 @@ section .heading{
         grid-column-end: 3;
         grid-row: 4/4;
     }
-    .timeline-top,
-    .timeline-bottom{
-        display: none;
+    .timeline-top .top-content,
+    .timeline-bottom .bottom-content{
         display: flex;
         flex-direction: column;
     }
@@ -388,6 +387,11 @@ section .heading{
         width: 2px;
         background: #000;
         position: absolute;
+    }
+    .timeline-top .top-content,
+    .timeline-bottom .bottom-content{
+    padding: 0 25px;
+    position: relative;
     }
     .top-content:after{
         display: none;
@@ -460,8 +464,8 @@ section .heading{
         height: 5px;
         background: grey;
     }
-    .timeline-top,
-    .timeline-bottom{
+    .timeline-top .top-content,
+    .timeline-bottom .bottom-content{
         display: flex;
         flex-direction: column;
     }
