@@ -198,8 +198,8 @@ section .heading{
     font-size: 150%;
 }
 #history{
-    padding-left: 20px;
-    border: 20px;
+    padding-left: 40px;
+    border: 25px;
 }
 .line{
     width: 100%;
@@ -219,6 +219,7 @@ section .heading{
     display: flex;
     flex-direction: row;
 }
+.timeline-top,
 .timeline-bottom{
     padding: 40px;
 }
@@ -358,10 +359,21 @@ fieldset{
         grid-column-end: 3;
         grid-row: 4/4;
     }
+    .timeline{
+        display: block;
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
     .timeline-top,
     .timeline-bottom{
         display: flex;
         flex-direction: column;
+        padding: 25px;
+    }
+    .timeline-bottom{
+        float: right;
     }
     .top-content:before,
     .bottom-content:before{
@@ -473,6 +485,9 @@ fieldset{
     .timeline-bottom{
         display: flex;
         flex-direction: column;
+    }
+    .timeline-bottom{
+        float: none;
     }
     .top-content:before,
     .bottom-content:before{
