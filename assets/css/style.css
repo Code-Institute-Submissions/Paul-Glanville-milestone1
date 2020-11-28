@@ -263,6 +263,11 @@ section .heading{
 }
 form{
     z-index: 2;
+    position: relative;
+}
+fieldset{
+    z-index: 2;
+    position: relative;
 }
 @media screen and (max-width: 1393px){
     .background-image{
@@ -353,8 +358,8 @@ form{
         grid-column-end: 3;
         grid-row: 4/4;
     }
-    .timeline-top .top-content,
-    .timeline-bottom .bottom-content{
+    .timeline-top,
+    .timeline-bottom{
         display: flex;
         flex-direction: column;
     }
@@ -464,8 +469,8 @@ form{
         height: 5px;
         background: grey;
     }
-    .timeline-top .top-content,
-    .timeline-bottom .bottom-content{
+    .timeline-top,
+    .timeline-bottom{
         display: flex;
         flex-direction: column;
     }
