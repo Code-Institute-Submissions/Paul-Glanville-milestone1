@@ -10,6 +10,7 @@ This is a Profile and Portfolio site which contains history of education and wor
 ## Table of Conent
 ### Features
 ### Technologies Used
+### Contact information
 ### Credit
 ### Copyright and License
 ---
@@ -36,9 +37,22 @@ The third section created is on the about.html page and is used for the Educatio
 
 ### Footer
 The Footer section contains two parts one for the Social class to direct the user to the social media links and the other part is the Contact Us section which when clicking on the link will open another page to allow the user to send an email if they desire.
+The icons used for the social links are from font awesome.
 
 ---
 
 ### Technoloy used
 1. HTML
 2. CSS
+3. For wireframes i have used Balsamiq
+
+---
+
+### Contact information
+If you want or need to contact me i have added the required information below
+1. Email: glanville49@goolgemail.com
+2. Mobile:
+
+---
+
+### License
