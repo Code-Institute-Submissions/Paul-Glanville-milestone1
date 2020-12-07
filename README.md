@@ -6,9 +6,16 @@
 
 This is a Profile and Portfolio site which contains history of education and work along with a page for displaying recent and previous projects that I create and work on.
 
+I want the user to be able to navigate with ease and simplicity without worry of confusion on which page they are on or be over powered and presented with a mass of information on each page. 
+
+---
+## UX
+
+
 ---
 ## Table of Conent
 ### Features
+### Layout/Design
 ### Technologies Used
 ### Contact information
 ### Credit
@@ -51,7 +58,7 @@ The icons used for the social links are from font awesome.
 ### Contact information
 If you want or need to contact me i have added the required information below
 1. Email: glanville49@goolgemail.com
-2. Mobile:
+2. Mobile: - wil be added at later date
 
 ---
 
