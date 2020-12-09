@@ -46,6 +46,9 @@ The third section created is on the about.html page and is used for the Educatio
 The Footer section contains two parts one for the Social class to direct the user to the social media links and the other part is the Contact Us section which when clicking on the link will open another page to allow the user to send an email if they desire.
 The icons used for the social links are from font awesome.
 
+## Future updates
+add projects onto the portfolio pafe, and update news feed to incorporate regular information and updates including patch updates.
+
 ---
 
 ### Technoloy used
