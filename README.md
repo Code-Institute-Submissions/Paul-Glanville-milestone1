@@ -9,17 +9,34 @@ This is a Profile and Portfolio site which contains history of education and wor
 I want the user to be able to navigate with ease and simplicity without worry of confusion on which page they are on or be over powered and presented with a mass of information on each page. 
 
 ---
-## UX
-
+## UX Layout and Design
+The Below design were used in the Balsamiq wireframe application.
+### Desktop
+![Desktop Home](/assets/wireframes/desktop-home.png)
+![Desktop About](/assets/wireframes/desktop-about.png)
+![Desktop Portfolio](/assets/wireframes/desktop-portfolio.png)
+### Tablet
+![Tablet Home](/assets/wireframes/tablet-home.png)
+![Tablet about](/assets/wireframes/tablet-about.png)
+![Tablet Portfolio](/assets/wireframes/tablet-portfolio.png)
+### Mobile
+![Mobile Home](/assets/wireframes/mobile-home.png)
+![Mobile about](/assets/wireframes/mobile-about.png)
+![Mobile Portfolio](/assets/wireframes/mobile-portfolio.png)
 
 ---
 ## Table of Conent
-### Features
-### Layout/Design
 ### Technologies Used
+### Features
+### Testing
 ### Contact information
-### Credit
 ### Copyright and License
+---
+### Technoloy used
+1. HTML
+2. CSS
+3. Fontawesome was used for icons.
+4. For wireframes i have used Balsamiq
 ---
 ## Features
 
@@ -50,11 +67,13 @@ The icons used for the social links are from font awesome.
 add projects onto the portfolio pafe, and update news feed to incorporate regular information and updates including patch updates.
 
 ---
+## Testing
+I have used W3C Validation service to ensure both the HTML and CSS are without errors and are corrected.
+I believe it was some incorrectly used code to implement the content and whether certain aspects should be hidden on a mobile device but that has been rectified and confrmed through the validator that all code is correct.
 
-### Technoloy used
-1. HTML
-2. CSS
-3. For wireframes i have used Balsamiq
+The pages viewed in media screens for tablets and laptops are working as planned, and constant cheking of whether each change in size and placement was right.
+The background image and the timeline placements were the hardest to do as the timeline needed to change style and direction as the screens got smaller. 
+The background Image however had to be able to adjust to each screen size with as minimal interferance with the overlaying content as possible.
 
 ---
 
