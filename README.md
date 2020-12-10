@@ -71,6 +71,9 @@ add projects onto the portfolio pafe, and update news feed to incorporate regula
 I have used W3C Validation service to ensure both the HTML and CSS are without errors and are corrected.
 I believe it was some incorrectly used code to implement the content and whether certain aspects should be hidden on a mobile device but that has been rectified and confrmed through the validator that all code is correct.
 
+- Clicking on About, Home and Portfolio will take the user to the associated page.
+- Clicking the link for contact us takes the user to a new page to fill out a form to contact via email.
+
 The pages viewed in media screens for tablets and laptops are working as planned, and constant cheking of whether each change in size and placement was right.
 The background image and the timeline placements were the hardest to do as the timeline needed to change style and direction as the screens got smaller. 
 The background Image however had to be able to adjust to each screen size with as minimal interferance with the overlaying content as possible.
