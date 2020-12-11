@@ -9,6 +9,7 @@ This is a Profile and Portfolio site which contains history of education and wor
 I want the user to be able to navigate with ease and simplicity without worry of confusion on which page they are on or be over powered and presented with a mass of information on each page. 
 
 ---
+
 ## UX Layout and Design
 The Below design were used in the Balsamiq wireframe application.
 
@@ -16,10 +17,12 @@ The Below design were used in the Balsamiq wireframe application.
 ![Desktop Home](/assets/wireframes/desktop-home.png)
 ![Desktop About](/assets/wireframes/desktop-about.png)
 ![Desktop Portfolio](/assets/wireframes/desktop-portfolio.png)
+
 ### Tablet
 ![Tablet Home](/assets/wireframes/tablet-home.png)
 ![Tablet about](/assets/wireframes/tablet-about.png)
 ![Tablet Portfolio](/assets/wireframes/tablet-portfolio.png)
+
 ### Mobile
 ![Mobile Home](/assets/wireframes/mobile-home.png)
 ![Mobile about](/assets/wireframes/mobile-about.png)
@@ -36,7 +39,7 @@ The Below design were used in the Balsamiq wireframe application.
 ### Technoloy used
 1. HTML
 2. CSS
-3. Fontawesome was used for icons.
+3. Font awesome was used for icons.
 4. For wireframes i have used Balsamiq
 ---
 ## Features
@@ -64,8 +67,8 @@ The third section created is on the about.html page and is used for the Educatio
 The Footer section contains two parts one for the Social class to direct the user to the social media links and the other part is the Contact Us section which when clicking on the link will open another page to allow the user to send an email if they desire.
 The icons used for the social links are from font awesome.
 
-## Future updates
-add projects onto the portfolio pafe, and update news feed to incorporate regular information and updates including patch updates.
+## Future update plans
+add projects and more content onto the portfolio page, and update news feed to incorporate regular information and updates including patch updates.
 
 ---
 ## Testing
