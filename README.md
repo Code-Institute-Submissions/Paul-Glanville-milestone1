@@ -11,6 +11,7 @@ I want the user to be able to navigate with ease and simplicity without worry of
 ---
 ## UX Layout and Design
 The Below design were used in the Balsamiq wireframe application.
+
 ### Desktop
 ![Desktop Home](/assets/wireframes/desktop-home.png)
 ![Desktop About](/assets/wireframes/desktop-about.png)
