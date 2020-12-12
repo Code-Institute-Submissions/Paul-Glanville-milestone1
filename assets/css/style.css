@@ -29,6 +29,10 @@ section{
     margin: 0;
     padding: 0;
 }
+.contain{
+    margin: auto;
+    width: 100%;
+}
 .container{
     display: inline-grid;
     width: 100%;
@@ -263,6 +267,7 @@ section h3{
     left: 10px;
     top: -40px;
 }
+
 form{
     z-index: 2;
     position: relative;
