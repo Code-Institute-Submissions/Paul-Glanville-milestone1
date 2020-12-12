@@ -171,7 +171,6 @@ section .heading{
 }
 
 .foot{
-    float: bottom;
     margin: 0;
     padding: 0;
     border: 0;
@@ -193,7 +192,7 @@ section .heading{
 }
 .social-network li a{
     display: inline;
-    font-size: 150%;
+    font-size: 200%;
 }
 section h3{
     display: inline-block;
