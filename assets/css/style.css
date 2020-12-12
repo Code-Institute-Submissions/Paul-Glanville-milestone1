@@ -39,9 +39,16 @@ section{
     margin: auto 0;
 }
 .project-1{
+    border: 1px solid;
     float: right;
-    padding: 10px;
-    min-width: 400px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    z-index: 2;
+}
+.project-1 .wrapper{
+    background-image: url(https://unsplash.com/photos/ZU62GJP-XC4.jpg) cover no-repeat;
+    position: absolute;
 }
 .container{
     display: inline-grid;
@@ -189,6 +196,7 @@ section .heading{
     margin: 0;
     padding: 0;
     border: 0;
+    z-index: 2;
 }
 .contact{
     text-align: left;
