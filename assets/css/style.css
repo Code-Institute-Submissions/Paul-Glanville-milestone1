@@ -132,7 +132,7 @@ section .heading{
 }
 .background-image{
     background: url(../images/london.jpg) no-repeat;
-    height: 480px;
+    height: 680px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -141,7 +141,7 @@ section .heading{
 }
 .bg-image{
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 480px;
+    height: 600px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -150,7 +150,7 @@ section .heading{
 }
 .bg-image2{
     background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 480px;
+    height: 600px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -171,6 +171,7 @@ section .heading{
 }
 
 .foot{
+    text-align: center;
     margin: 0;
     padding: 0;
     border: 0;
@@ -182,12 +183,14 @@ section .heading{
     display: inline-block;
 }
 .social-network{
+    display: inline-block;
     margin: 0;
     border: 0;
     padding: 0;
     text-align: center;
 }
 .social-network li{
+    margin: 10px;
     display: inline;
 }
 .social-network li a{
