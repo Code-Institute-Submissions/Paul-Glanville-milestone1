@@ -30,31 +30,46 @@ section{
     padding: 0;
 }
 .contain{
-    z-index: 2;
     margin: auto;
     width: 100%;
     padding: 2rem;
 }
 .block{
-    margin: auto 0;
+    margin: 0;
 }
-.project-1{
+.project-1{ 
+    background-image: url(../images/villageuk.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 20px;
     border: 1px solid;
-    float: right;
-    padding: 20px;
-    width: 400px;
-    height: 400px;
+    float: left;
+    padding: 2rem;
+    width: 500px;
+    height: 500px;
     z-index: 2;
+    position: relative
 }
-.project-1 .wrapper{
-    background-image: url(https://unsplash.com/photos/ZU62GJP-XC4.jpg) cover no-repeat;
-    position: absolute;
+.project-2{ 
+    background-image: url(../images/villageuk.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 20px;
+    border: 1px solid;
+    float: left;
+    padding: 2rem;
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+    position: relative
 }
 .container{
     display: inline-grid;
     width: 100%;
     grid-template-columns: 28% 46% 26%;
-    grid-template-rows: 230px 50px 50px 150px;
+    grid-template-rows: 230px 50px 50px 270px;
     grid-template-areas: "main middle info"
                          "name . ."
                          "profile . ."
