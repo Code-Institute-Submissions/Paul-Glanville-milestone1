@@ -30,8 +30,18 @@ section{
     padding: 0;
 }
 .contain{
+    z-index: 2;
     margin: auto;
     width: 100%;
+    padding: 2rem;
+}
+.block{
+    margin: auto 0;
+}
+.project-1{
+    float: right;
+    padding: 10px;
+    min-width: 400px;
 }
 .container{
     display: inline-grid;
@@ -74,7 +84,7 @@ section{
     display: inline-grid;
     width: 100%;
     grid-template-columns: 26% 48% 26%;
-    grid-template-rows: 230px 230px;
+    grid-template-rows: 230px 20px;
     grid-template-areas: "main middle info"
 }
 .item-one{
