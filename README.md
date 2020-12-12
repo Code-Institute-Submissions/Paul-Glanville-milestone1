@@ -10,6 +10,16 @@ I want the user to be able to navigate with ease and simplicity without worry of
 
 ---
 
+## Table of Conent
+### UX Layout and Design
+### Technologies Used
+### Features
+### Testing
+### Contact information
+### Copyright and License
+
+---
+
 ## UX Layout and Design
 The Below design were used in the Balsamiq wireframe application.
 
@@ -28,13 +38,6 @@ The Below design were used in the Balsamiq wireframe application.
 ![Mobile about](/assets/wireframes/mobile-about.png)
 ![Mobile Portfolio](/assets/wireframes/mobile-portfolio.png)
 
----
-## Table of Conent
-### Technologies Used
-### Features
-### Testing
-### Contact information
-### Copyright and License
 ---
 ### Technoloy used
 1. HTML

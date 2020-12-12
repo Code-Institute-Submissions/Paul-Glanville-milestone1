@@ -32,7 +32,7 @@ section{
 .container{
     display: inline-grid;
     width: 100%;
-    grid-template-columns: 27% 47% 26%;
+    grid-template-columns: 28% 46% 26%;
     grid-template-rows: 230px 50px 50px 150px;
     grid-template-areas: "main middle info"
                          "name . ."
@@ -300,7 +300,7 @@ fieldset{
     .container{
         display: inline-grid;
         width: 100%;
-        grid-template-columns: 30% 44% 26%;
+        grid-template-columns: 40% 34% 26%;
         grid-template-rows: 230px 50px 50px 150px;
         grid-template-areas: "main middle info"
                             "name . ."
