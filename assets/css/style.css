@@ -46,9 +46,8 @@ section{
     border: 1px solid;
     float: left;
     padding: 2rem;
-    width: 500px;
-    height: 500px;
-    z-index: 2;
+    width: 600px;
+    height: 400px;
     position: relative
 }
 .project-2{ 
@@ -60,16 +59,21 @@ section{
     border: 1px solid;
     float: left;
     padding: 2rem;
-    width: 500px;
-    height: 500px;
-    z-index: 2;
+    width: 600px;
+    height: 400px;
     position: relative
+}
+.wrapper{
+    background: #444;
+    opacity: 0.75;
+    width: 100%;
+    height: 35%;
 }
 .container{
     display: inline-grid;
     width: 100%;
     grid-template-columns: 28% 46% 26%;
-    grid-template-rows: 230px 50px 50px 270px;
+    grid-template-rows: 230px 50px 50px 220px;
     grid-template-areas: "main middle info"
                          "name . ."
                          "profile . ."
@@ -168,7 +172,7 @@ section .heading{
 }
 .background-image{
     background: url(../images/london.jpg) no-repeat;
-    height: 680px;
+    height: 630px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -177,7 +181,7 @@ section .heading{
 }
 .bg-image{
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 600px;
+    height: 550px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -186,7 +190,7 @@ section .heading{
 }
 .bg-image2{
     background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 600px;
+    height: 550px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
