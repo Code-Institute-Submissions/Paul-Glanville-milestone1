@@ -37,7 +37,7 @@ section{
 .block{
     margin: 0;
 }
-.project-1{ 
+.layout-1{ 
     background-image: url(../images/villageuk.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ section{
     height: 400px;
     position: relative
 }
-.project-2{ 
+.layout-2{ 
     background-image: url(../images/villageuk.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
