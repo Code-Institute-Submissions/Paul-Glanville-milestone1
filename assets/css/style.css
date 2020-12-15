@@ -125,6 +125,12 @@ section{
     grid-row-start: 1;
     grid-row-end: 2;
 }
+.item-three{
+    grid-area: info;
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
 section h1{
     margin-left: 25px;
     padding-left: 25px;
@@ -163,6 +169,14 @@ section .heading{
     z-index: 2;
 }
 .top-right{
+    padding-right: 30px;
+    padding-left: 20px;
+    opacity: 0.75;
+    position: relative;
+    background-color: #444;
+    z-index: 2;
+}
+.middle{
     padding-right: 30px;
     padding-left: 20px;
     opacity: 0.75;
@@ -587,5 +601,29 @@ fieldset{
         display: none;
         left: 10px;
         top: -40px;
+    }
+    .layout-1{ 
+        background-image: url(../images/villageuk.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: block;
+        margin: 20px;
+        border: 1px solid;
+        padding: 2rem;
+        width: 65%;
+        height: 250px;
+        position: relative
+        }
+    .layout-2{ 
+        background-image: url(../images/villageuk.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: block;
+        margin: 20px;
+        border: 1px solid;
+        padding: 2rem;
+        width: 65%;
+        height: 250px;
+        position: relative
     }
 }
