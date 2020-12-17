@@ -120,19 +120,19 @@ section{
     grid-area: main;
     grid-column: 1;
     grid-row-start: 1;
-    grid-row-end: 2
+    grid-row-end: 3;
 }
 .item-two{
     grid-area: info;
     grid-column: 3;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
 }
 .item-three{
     grid-area: info;
     grid-column: 2;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
 }
 section h1{
     margin-left: 25px;
@@ -142,6 +142,10 @@ section h1{
     color: rgb(255, 242, 242);
     position: relative;
     z-index: 2;
+}
+h2{
+    margin: 20px;
+    
 }
 section .heading{
     border: 1px;
