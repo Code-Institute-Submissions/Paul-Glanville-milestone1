@@ -41,6 +41,7 @@ section{
 .layout-1{ 
     background-image: url(../images/villageuk.jpg);
     background-size: 100% 100%;
+    color: #fff;
     background-repeat: no-repeat;
     display: inline;
     margin: 20px;
@@ -49,11 +50,12 @@ section{
     padding: 2rem;
     width: 40%;
     height: 400px;
-    position: relative
+    position: relative;
 }
 .layout-2{ 
     background-image: url(../images/villageuk.jpg);
     background-size: 100% 100%;
+    color: #fff;
     background-repeat: no-repeat;
     display: inline;
     margin: 20px;
@@ -62,7 +64,7 @@ section{
     padding: 2rem;
     width: 40%;
     height: 400px;
-    position: relative
+    position: relative;
 }
 .wrapper{
     background: #444;
@@ -377,6 +379,34 @@ fieldset{
         grid-column: 1;
         grid-row: 4/4;
     }
+    .layout-1{ 
+        background-image: url(../images/villageuk.jpg);
+        background-size: 100% 100%;
+        color: #fff;
+        background-repeat: no-repeat;
+        display: inline;
+        margin: 20px;
+        border: 1px solid;
+        float: left;
+        padding: 2rem;
+        width: 38%;
+        height: 400px;
+        position: relative;
+    }
+    .layout-2{ 
+        background-image: url(../images/villageuk.jpg);
+        background-size: 100% 100%;
+        color: #fff;
+        background-repeat: no-repeat;
+        display: inline;
+        margin: 20px;
+        border: 1px solid;
+        float: left;
+        padding: 2rem;
+        width: 38%;
+        height: 400px;
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 943px){
@@ -486,6 +516,34 @@ fieldset{
         display: none;
         left: 10px;
         top: -40px;
+    }
+    .layout-1{ 
+        background-image: url(../images/villageuk.jpg);
+        background-size: 100% 100%;
+        color: #fff;
+        background-repeat: no-repeat;
+        display: inline;
+        margin: 20px;
+        border: 1px solid;
+        float: left;
+        padding: 2rem;
+        width: 35%;
+        height: 350px;
+        position: relative;
+    }
+    .layout-2{ 
+        background-image: url(../images/villageuk.jpg);
+        background-size: 100% 100%;
+        color: #fff;
+        background-repeat: no-repeat;
+        display: inline;
+        margin: 20px;
+        border: 1px solid;
+        float: left;
+        padding: 2rem;
+        width: 35%;
+        height: 350px;
+        position: relative;
     }
 }
 
