@@ -32,7 +32,8 @@ section{
 .contain{
     margin: auto;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
+    float: left;
 }
 .block{
     margin: 0;
@@ -46,7 +47,7 @@ section{
     border: 1px solid;
     float: left;
     padding: 2rem;
-    width: 600px;
+    width: 40%;
     height: 400px;
     position: relative
 }
@@ -59,7 +60,7 @@ section{
     border: 1px solid;
     float: left;
     padding: 2rem;
-    width: 600px;
+    width: 40%;
     height: 400px;
     position: relative
 }
@@ -110,7 +111,7 @@ section{
     display: inline-grid;
     width: 100%;
     grid-template-columns: 26% 48% 26%;
-    grid-template-rows: 230px 20px;
+    grid-template-rows: 230px 120px;
     grid-template-areas: "main middle info"
 }
 .item-one{
@@ -227,13 +228,12 @@ section .heading{
 }
 
 .foot{
-    background-color: #444;
     text-align: center;
     opacity: 0.75;
     margin: 0;
     padding: 0;
     border: 0;
-    z-index: 2;
+    z-index: 1;
 }
 .contact{
     text-align: left;
@@ -255,6 +255,7 @@ section .heading{
 .social-network li a{
     display: inline;
     font-size: 200%;
+    color: blue;
 }
 section h3{
     display: inline-block;
@@ -530,11 +531,25 @@ fieldset{
     .container-two{
         display: inline-grid;
         width: 100%;
-        grid-template-columns: 33% 34% 33%;
-        grid-template-rows: 230px 230px;
+        grid-template-columns: 90%;
+        grid-template-rows: 230px 230px 230px;
         grid-template-areas: "main middle info"
     }
-
+    .item-one{
+        grid-area: main;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .item-two{
+        grid-area: info;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .item-three{
+        grid-area: info;
+        grid-column: 1;
+        grid-row: 2;
+    }
     .item-e{
         display: none;
         grid-area: info;
@@ -617,7 +632,7 @@ fieldset{
         border: 1px solid;
         padding: 2rem;
         width: 65%;
-        height: 250px;
+        height: 300px;
         position: relative
         }
     .layout-2{ 
@@ -629,7 +644,7 @@ fieldset{
         border: 1px solid;
         padding: 2rem;
         width: 65%;
-        height: 250px;
+        height: 300px;
         position: relative
     }
 }
