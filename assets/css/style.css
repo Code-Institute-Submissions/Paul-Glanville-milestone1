@@ -35,9 +35,6 @@ section{
     padding: 1rem;
     float: left;
 }
-.block{
-    margin: 0;
-}
 .layout-1{ 
     background-image: url(../images/villageuk.jpg);
     background-size: 100% 100%;
@@ -50,7 +47,6 @@ section{
     padding: 2rem;
     width: 40%;
     height: 400px;
-    position: relative;
 }
 .layout-2{ 
     background-image: url(../images/villageuk.jpg);
@@ -64,7 +60,6 @@ section{
     padding: 2rem;
     width: 40%;
     height: 400px;
-    position: relative;
 }
 .wrapper{
     background: #444;
@@ -144,8 +139,10 @@ section h1{
     z-index: 2;
 }
 h2{
-    margin: 20px;
-    
+    margin: 20px;   
+}
+.wrapper p{
+    margin-left: 10px;
 }
 section .heading{
     border: 1px;
@@ -235,8 +232,7 @@ section .heading{
 
 .foot{
     bottom: 0;
-    left: 40%;
-    position: absolute;
+    position: relative;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -334,6 +330,7 @@ section .heading{
 
 form{
     margin: 20px;
+    margin-bottom: 40px;
     color: #fff;
     z-index: 2;
     position: relative;
@@ -341,7 +338,6 @@ form{
 fieldset{
     size: 1.25em;
     z-index: 2;
-    position: relative;
 }
 @media screen and (max-width: 1393px){
     .background-image{
@@ -386,12 +382,6 @@ fieldset{
         grid-column: 1;
         grid-row: 4/4;
     }
-    .contain{
-        margin: auto;
-        width: 100%;
-        padding: 1rem;
-        float: left;
-    }
     .layout-1{ 
         background-image: url(../images/villageuk.jpg);
         background-size: 100% 100%;
@@ -404,7 +394,6 @@ fieldset{
         padding: 2rem;
         width: 38%;
         height: 400px;
-        position: relative;
     }
     .layout-2{ 
         background-image: url(../images/villageuk.jpg);
@@ -418,7 +407,6 @@ fieldset{
         padding: 2rem;
         width: 38%;
         height: 400px;
-        position: relative;
     }
 }
 
@@ -533,11 +521,12 @@ fieldset{
         left: 10px;
         top: -40px;
     }
-    .contain{
-        margin: auto;
+    .wrapper{
+        font-size: small;
+        background: #444;
+        opacity: 0.75;
         width: 100%;
-        padding: 1rem;
-        float: left;
+        height: 40%;
     }
     .layout-1{ 
         background-image: url(../images/villageuk.jpg);
@@ -551,7 +540,6 @@ fieldset{
         padding: 2rem;
         width: 35%;
         height: 350px;
-        position: relative;
     }
     .layout-2{ 
         background-image: url(../images/villageuk.jpg);
@@ -565,12 +553,10 @@ fieldset{
         padding: 2rem;
         width: 35%;
         height: 350px;
-        position: relative;
     }
     .foot{
         bottom: 0;
-        left: 25%;
-        position: absolute;
+        position: relative;
         text-align: center;
         opacity: 0.75;
         margin: 0;
@@ -711,11 +697,12 @@ fieldset{
         left: 10px;
         top: -40px;
     }
-    .contain{
-        margin: auto;
+    .wrapper{
+        font-size: small;
+        background: #444;
+        opacity: 0.75;
         width: 100%;
-        padding: 1rem;
-        float: left;
+        height: 45%;
     }
     .layout-1{ 
         background-image: url(../images/villageuk.jpg);
@@ -728,7 +715,6 @@ fieldset{
         padding: 2rem;
         width: 65%;
         height: 300px;
-        position: relative;
         }
     .layout-2{ 
         background-image: url(../images/villageuk.jpg);
@@ -741,12 +727,10 @@ fieldset{
         padding: 2rem;
         width: 65%;
         height: 300px;
-        position: relative;
     }
     .foot{
         bottom: 0;
-        left: 8%;
-        position: absolute;
+        position: relative;
         text-align: center;
         margin: 0;
         padding: 0;
