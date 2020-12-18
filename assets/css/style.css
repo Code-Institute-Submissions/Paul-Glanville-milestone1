@@ -71,7 +71,7 @@ section{
     display: inline-grid;
     width: 100%;
     grid-template-columns: 28% 46% 26%;
-    grid-template-rows: 230px 50px 50px 220px;
+    grid-template-rows: 230px 50px 50px 230px;
     grid-template-areas: "main middle info"
                          "name . ."
                          "profile . ."
@@ -108,26 +108,26 @@ section{
     display: inline-grid;
     width: 100%;
     grid-template-columns: 26% 48% 26%;
-    grid-template-rows: 230px 120px;
+    grid-template-rows: 80px 230px 120px;
     grid-template-areas: "main middle info"
 }
 .item-one{
     grid-area: main;
     grid-column: 1;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 .item-two{
     grid-area: info;
     grid-column: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 .item-three{
     grid-area: info;
     grid-column: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 section h1{
     margin-left: 25px;
@@ -330,19 +330,19 @@ section .heading{
 
 form{
     margin: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     color: #fff;
     z-index: 2;
     position: relative;
 }
 fieldset{
-    size: 1.25em;
+    margin-right: 85%;
     z-index: 2;
 }
 @media screen and (max-width: 1393px){
     .background-image{
         background: url(../images/london.jpg) no-repeat;
-        height: 480px;
+        height: 490px;
         width: 100%;
         background-size: cover;
         overflow: hidden;
@@ -413,7 +413,7 @@ fieldset{
 @media screen and (max-width: 943px){
     .background-image{
         background: url(../images/london.jpg) no-repeat;
-        height: 480px;
+        height: 490px;
         width: 100%;
         background-size: cover;
         overflow: hidden;
@@ -564,12 +564,15 @@ fieldset{
         border: 0;
         z-index: 1;
     }
+    form{
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 600px){
     .background-image{
         background: url(../images/london.jpg) no-repeat;
-        height: 480px;
+        height: 490px;
         width: 100%;
         background-size: cover;
         overflow: hidden;
@@ -609,23 +612,23 @@ fieldset{
         display: inline-grid;
         width: 100%;
         grid-template-columns: 100%;
-        grid-template-rows: 230px 230px 230px;
+        grid-template-rows: 50px 230px 230px 230px;
         grid-template-areas: "main middle info";
     }
     .item-one{
         grid-area: main;
         grid-column: 1;
-        grid-row: 1;
+        grid-row: 2;
     }
     .item-two{
         grid-area: info;
         grid-column: 1;
-        grid-row: 3;
+        grid-row: 4;
     }
     .item-three{
         grid-area: info;
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 3;
     }
     .item-e{
         display: none;
@@ -741,5 +744,8 @@ fieldset{
         display: inline;
         font-size: 140%;
         color: blue;
+    }
+    form{
+    margin-bottom: 30px;
     }
 }
