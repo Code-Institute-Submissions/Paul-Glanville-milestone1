@@ -192,7 +192,7 @@ section .heading{
 }
 .background-image{
     background: url(../images/london.jpg) no-repeat;
-    height: 630px;
+    height: 560px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -201,7 +201,7 @@ section .heading{
 }
 .bg-image{
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 550px;
+    height: 560px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -569,7 +569,7 @@ fieldset{
 @media screen and (max-width: 600px){
     .background-image{
         background: url(../images/london.jpg) no-repeat;
-        height: 380px;
+        height: 480px;
         width: 100%;
         background-size: cover;
         overflow: hidden;
