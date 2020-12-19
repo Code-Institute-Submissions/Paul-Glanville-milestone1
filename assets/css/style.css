@@ -37,7 +37,6 @@ section {
 .contain {
   margin: auto;
   width: 100%;
-  padding: 1rem;
   float: left;
 }
 
@@ -50,8 +49,8 @@ section {
   margin: 20px;
   border: 1px solid;
   float: left;
-  padding-top: 1rem;
-  width: 44.5%;
+  padding: 1rem;
+  width: 42.5%;
   height: 400px;
 }
 
@@ -63,8 +62,8 @@ section {
   display: inline;
   margin: 20px;
   border: 1px solid;
-  float: left;
-  padding-top: 1rem;
+  float: right;
+  padding: 1rem;
   width: 42.5%;
   height: 400px;
 }
@@ -240,7 +239,7 @@ section .heading {
 
 .bg-image2 {
   background: url(../images/st-micheals-mount.jpg) no-repeat center;
-  height: 560px;
+  height: 570px;
   width: 100%;
   background-size: cover;
   overflow: hidden;
@@ -401,7 +400,7 @@ fieldset {
 
   .bg-image {
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 480px;
+    height: 490px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -411,7 +410,7 @@ fieldset {
 
   .bg-image2 {
     background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 480px;
+    height: 490px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -423,7 +422,7 @@ fieldset {
     display: inline-grid;
     width: 100%;
     grid-template-columns: 40% 34% 26%;
-    grid-template-rows: 230px 50px 50px 150px;
+    grid-template-rows: 230px 50px 50px 160px;
     grid-template-areas: "main middle info"
                             "name . ."
                             "profile . ."
@@ -444,9 +443,9 @@ fieldset {
     display: inline;
     margin: 20px;
     border: 1px solid;
-    float: left;
     padding: 1rem;
-    width: 38%;
+    float: left;
+    width: 42.5%;
     height: 400px;
   }
 
@@ -458,9 +457,9 @@ fieldset {
     display: inline;
     margin: 20px;
     border: 1px solid;
-    float: left;
-    padding-top: 2rem;
-    width: 38%;
+    float: right;
+    padding: 1rem;
+    width: 42.5%;
     height: 400px;
   }
 }
@@ -478,7 +477,7 @@ fieldset {
 
   .bg-image {
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 480px;
+    height: 490px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -488,7 +487,7 @@ fieldset {
 
   .bg-image2 {
     background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 480px;
+    height: 490px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -500,7 +499,7 @@ fieldset {
     display: inline-grid;
     width: 100%;
     grid-template-columns: 38% 36% 26%;
-    grid-template-rows: 230px 50px 50px 150px;
+    grid-template-rows: 230px 50px 50px 160px;
     grid-template-areas: "main middle info"
                             "name . ."
                             "profile . ."
@@ -602,29 +601,29 @@ fieldset {
 
   .layout-1 {
     background-image: url(../images/villageuk.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
     display: inline;
-    margin: 20px;
+    margin: 10px;
     border: 1px solid;
     float: left;
-    padding: 2rem;
-    width: 35%;
+    padding: 1rem;
+    width: 42.5%;
     height: 350px;
   }
 
   .layout-2 {
     background-image: url(../images/villageuk.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
     display: inline;
-    margin: 20px;
+    margin: 10px;
     border: 1px solid;
-    float: left;
-    padding: 2rem;
-    width: 35%;
+    float: right;
+    padding: 1rem;
+    width: 42.5%;
     height: 350px;
   }
 
@@ -657,7 +656,7 @@ fieldset {
 
   .bg-image {
     background: url(../images/parliament.jpg) no-repeat center;
-    height: 380px;
+    height: 490px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -667,7 +666,7 @@ fieldset {
 
   .bg-image2 {
     background: url(../images/st-micheals-mount.jpg) no-repeat center;
-    height: 380px;
+    height: 490px;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -679,7 +678,7 @@ fieldset {
     display: inline-grid;
     width: 100%;
     grid-template-columns: 100%;
-    grid-template-rows: 230px 50px 50px 150px;
+    grid-template-rows: 230px 50px 50px 160px;
     grid-template-areas: "main middle"
                             "name . ."
                             "profile . ."
@@ -805,27 +804,27 @@ fieldset {
 
   .layout-1 {
     background-image: url(../images/villageuk.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     font-size: medium;
     display: block;
-    margin: 20px;
+    margin: 7.5%;
     border: 1px solid;
-    padding: 2rem;
-    width: 65%;
+    padding: 5%;
+    width: 75%;
     height: 300px;
   }
 
   .layout-2 {
     background-image: url(../images/villageuk.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     font-size: medium;
     display: block;
-    margin: 20px;
+    margin: 7.5%;
     border: 1px solid;
-    padding: 2rem;
-    width: 65%;
+    padding: 5%m;
+    width: 75%;
     height: 300px;
   }
 
