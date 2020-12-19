@@ -2,6 +2,8 @@
 
 [Github](https://github.com/Paul-Glanville/milestone1 "Github project page")
 
+[Site-Display](https://paul-glanville.github.io/milestone1/)
+
 ## Description
 
 This is a Profile and Portfolio site which contains history of education and work along with a page for displaying recent and previous projects that I create and work on.
