@@ -13,6 +13,7 @@ I want the user to be able to navigate with ease and simplicity without worry of
 ## Table of Conent
 ### UX Layout and Design
 ### Technologies Used
+### User stories
 ### Features
 ### Testing
 ### Contact information
@@ -50,16 +51,37 @@ To prevent clutter of the page only the esktop wirframes are previewed the rest 
 3. Font awesome was used for icons.
 4. For wireframes i have used Balsamiq
 ---
+## User Stories
+
+### Site owner
+As the site owner i want users to be able to navigate the page without being confused.
+I also want users to be able to view the page in both desktop and media screens without being overburdened with content.
+
+### Site owner
+As a site owner it's great to have the capability for users to be able to contact me for information about a previous project and future project and collaborations.
+
+### Site user
+As a potential client i've seen the Projects created and interest in what the creator can do.
+
+### Site user
+Having the ability to contact the creator at any time to discuss future projects and collaborations, as well as an insight to the previous projects they have created.
+
+---
 ## Features
 
-## Index
+### Index
+The Index page is the Home page and is the main page which feature a news feed, the top half of the page is an introduction for the user. The Navigation menu is at the top and links to each page and is also on the other pages.
+The Footer contains the social network links and a clickable link to the form page. 
+The top part of this page is displayed on the other pages with  different background image.
 
+### About
+The about page shows the work and education history which changes from horizntl to vertical for media screens and a bullet point list.
 
-## About
+### Portfolio
+This page features the projects created and hows them in a format of blocks with a brief description of each project.
 
-## Portfolio
-
-## Form
+### Form
+This page is a form that allows the site users to contact the owner with queries and requests for future projects and collaborations. There is also a box to allow a breif description of why the user has emailed the owner of the site.
 
 ## Future update plans
 add projects and more content onto the portfolio page, and update news feed to incorporate regular information and updates including patch updates.
@@ -89,5 +111,16 @@ If you want or need to contact me i have added the required information below
 
 https://github.com/Ash066/starbomb#user-stories - I used this as an inpiration for the user stories.
 
-[villageuk](https://unsplash.com/photos/ZU62GJP-XC4) This image was downloaded from unsplash.com to use as a background for the project images
+These images were downloaded from unsplash.com to use as a background for the project images
 
+[villageuk](https://unsplash.com/photos/ZU62GJP-XC4)
+
+[pagonda](https://unsplash.com/photos/N4DbvTUDikw)
+
+[tokyo-tower](https://unsplash.com/photos/IocJwyqRv3M)
+
+[coast-town](https://unsplash.com/photos/6OGM8koETWo)
+
+[osaka](https://unsplash.com/photos/OxeNkQXt9E8)
+
+[river](https://unsplash.com/photos/KZ460ACcV24)

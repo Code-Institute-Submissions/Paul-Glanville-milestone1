@@ -50,12 +50,12 @@ section {
   border: 1px solid;
   float: left;
   padding: 1rem;
-  width: 42.5%;
+  width: 44%;
   height: 400px;
 }
 
 .layout-2 {
-  background-image: url(../images/villageuk.jpg);
+  background-image: url(../images/pagonda.jpg);
   background-size: cover;
   color: #fff;
   background-repeat: no-repeat;
@@ -64,11 +64,11 @@ section {
   border: 1px solid;
   float: right;
   padding: 1rem;
-  width: 42.5%;
+  width: 44%;
   height: 400px;
 }
 .layout-3 {
-  background-image: url(../images/villageuk.jpg);
+  background-image: url(../images/tokyo-tower.jpg);
   background-size: cover;
   color: #fff;
   background-repeat: no-repeat;
@@ -77,12 +77,12 @@ section {
   border: 1px solid;
   float: left;
   padding: 1rem;
-  width: 42.5%;
+  width: 44%;
   height: 400px;
 }
 
 .layout-4 {
-  background-image: url(../images/villageuk.jpg);
+  background-image: url(../images/coast-town.jpg);
   background-size: cover;
   color: #fff;
   background-repeat: no-repeat;
@@ -91,12 +91,12 @@ section {
   border: 1px solid;
   float: right;
   padding: 1rem;
-  width: 42.5%;
+  width: 44%;
   height: 400px;
 }
 
 .layout-5 {
-  background-image: url(../images/villageuk.jpg);
+  background-image: url(../images/river.jpg);
   background-size: cover;
   color: #fff;
   background-repeat: no-repeat;
@@ -105,12 +105,12 @@ section {
   border: 1px solid;
   float: left;
   padding: 1rem;
-  width: 42.5%;
+  width: 44%;
   height: 400px;
 }
 
 .layout-6 {
-  background-image: url(../images/villageuk.jpg);
+  background-image: url(../images/osaka.jpg);
   background-size: cover;
   color: #fff;
   background-repeat: no-repeat;
@@ -119,7 +119,7 @@ section {
   border: 1px solid;
   float: right;
   padding: 1rem;
-  width: 42.5%;
+  width: 44%;
   height: 400px;
 }
 
@@ -529,7 +529,7 @@ form textarea {
   }
 
   .layout-2 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/pagonda.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -543,7 +543,7 @@ form textarea {
   }
 
   .layout-3 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/tokyo-tower.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -557,7 +557,7 @@ form textarea {
   }
 
   .layout-4 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/coast-town.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -571,7 +571,7 @@ form textarea {
   }
 
   .layout-5 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/river.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -585,7 +585,7 @@ form textarea {
   }
 
   .layout-6 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/osaka.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -749,7 +749,7 @@ form textarea {
   }
 
   .layout-2 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/pagonda.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -763,7 +763,7 @@ form textarea {
   }
 
   .layout-3 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/tokyo-tower.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -777,7 +777,7 @@ form textarea {
   }
 
   .layout-4 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/coast-town.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -791,7 +791,7 @@ form textarea {
   }
 
   .layout-5 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/river.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -805,7 +805,7 @@ form textarea {
   }
 
   .layout-6 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/osaka.jpg);
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -1013,7 +1013,7 @@ form textarea {
   }
 
   .layout-2 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/pagonda.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-size: medium;
@@ -1026,7 +1026,7 @@ form textarea {
   }
 
   .layout-3 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/tokyo-tower.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-size: medium;
@@ -1039,7 +1039,7 @@ form textarea {
   }
 
   .layout-4 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/coast-town.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-size: medium;
@@ -1052,7 +1052,7 @@ form textarea {
   }
 
   .layout-5 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/river.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-size: medium;
@@ -1065,7 +1065,7 @@ form textarea {
   }
 
   .layout-6 {
-    background-image: url(../images/villageuk.jpg);
+    background-image: url(../images/osaka.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-size: medium;
