@@ -19,8 +19,14 @@
     </nav>
     <!-- Background image covering top half of page -->
     <div class="background-image"></div>
+    <section class="container">
+        <img src="assets/images/paul.jpg" id="profile-image" class="item-a cover-text" alt="image of Host standing upright">
+        <h1 class="item-b">Paul Glanville</h1>
+        <h2 class="item-c heading">Profile</h2>
+        <div class="right item-e top-right"><p>This is my Home page with a background view of the Gerkin building in london... <span>Hope you like it.</span></p></div>
+    </section>
     <!-- Contact form -->
-    <form action="send" method="post">
+    <form class="block" action="send" method="post">
         <h2>Emailing your questions</h2>
         <label for="fname">First Name</label><br>
         <input type="text" id="fname" name="fname" required><br>
@@ -29,11 +35,8 @@
         <label for="email">E-mail Address</label><br>
         <input type="email" name="email" id="email" required><br>
         <label for="description">Description of Issue</label><br>
-        <textarea name="description" id="description" cols="40" rows="10"></textarea>
-        <fieldset>
-            <legend>Send Email</legend>
-            <input type="submit" value="send-email">
-        </fieldset>
+        <textarea name="description" id="description" cols="40" rows="10"></textarea><br>
+        <input class="button" type="submit" value="send-email"><br>
     </form>
     <!-- footer containing social and contact info -->
     <footer class="foot">
