@@ -23,20 +23,25 @@ I want the user to be able to navigate with ease and simplicity without worry of
 ## UX Layout and Design
 The Below design were used in the Balsamiq wireframe application.
 
+To prevent clutter of the page only the esktop wirframes are previewed the rest are viewable via links.
 ### Desktop
 ![Desktop Home](/assets/wireframes/desktop-home.png)
 ![Desktop About](/assets/wireframes/desktop-about.png)
 ![Desktop Portfolio](/assets/wireframes/desktop-portfolio.png)
 
 ### Tablet
-![Tablet Home](/assets/wireframes/tablet-home.png)
-![Tablet about](/assets/wireframes/tablet-about.png)
-![Tablet Portfolio](/assets/wireframes/tablet-portfolio.png)
+[Tablet Home](/assets/wireframes/tablet-home.png)
+
+[Tablet about](/assets/wireframes/tablet-about.png)
+
+[Tablet Portfolio](/assets/wireframes/tablet-portfolio.png)
 
 ### Mobile
-![Mobile Home](/assets/wireframes/mobile-home.png)
-![Mobile about](/assets/wireframes/mobile-about.png)
-![Mobile Portfolio](/assets/wireframes/mobile-portfolio.png)
+[Mobile Home](/assets/wireframes/mobile-home.png)
+
+[Mobile about](/assets/wireframes/mobile-about.png)
+
+[Mobile Portfolio](/assets/wireframes/mobile-portfolio.png)
 
 ---
 ### Technoloy used
