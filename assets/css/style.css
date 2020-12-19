@@ -67,6 +67,61 @@ section {
   width: 42.5%;
   height: 400px;
 }
+.layout-3 {
+  background-image: url(../images/villageuk.jpg);
+  background-size: cover;
+  color: #fff;
+  background-repeat: no-repeat;
+  display: inline;
+  margin: 20px;
+  border: 1px solid;
+  float: left;
+  padding: 1rem;
+  width: 42.5%;
+  height: 400px;
+}
+
+.layout-4 {
+  background-image: url(../images/villageuk.jpg);
+  background-size: cover;
+  color: #fff;
+  background-repeat: no-repeat;
+  display: inline;
+  margin: 20px;
+  border: 1px solid;
+  float: right;
+  padding: 1rem;
+  width: 42.5%;
+  height: 400px;
+}
+
+.layout-5 {
+  background-image: url(../images/villageuk.jpg);
+  background-size: cover;
+  color: #fff;
+  background-repeat: no-repeat;
+  display: inline;
+  margin: 20px;
+  border: 1px solid;
+  float: left;
+  padding: 1rem;
+  width: 42.5%;
+  height: 400px;
+}
+
+.layout-6 {
+  background-image: url(../images/villageuk.jpg);
+  background-size: cover;
+  color: #fff;
+  background-repeat: no-repeat;
+  display: inline;
+  margin: 20px;
+  border: 1px solid;
+  float: right;
+  padding: 1rem;
+  width: 42.5%;
+  height: 400px;
+}
 
 .wrapper {
   background: #444;
@@ -113,6 +168,11 @@ section {
 }
 
 .item-e {
+  grid-area: info;
+  grid-column: 3;
+  grid-row: 1;
+}
+.item-f {
   grid-area: info;
   grid-column: 3;
   grid-row: 1;
@@ -481,6 +541,62 @@ form textarea {
     width: 42.5%;
     height: 400px;
   }
+
+  .layout-3 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 20px;
+    border: 1px solid;
+    float: left;
+    padding: 1rem;
+    width: 42.5%;
+    height: 400px;
+  }
+
+  .layout-4 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 20px;
+    border: 1px solid;
+    float: right;
+    padding: 1rem;
+    width: 42.5%;
+    height: 400px;
+  }
+
+  .layout-5 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 20px;
+    border: 1px solid;
+    float: left;
+    padding: 1rem;
+    width: 42.5%;
+    height: 400px;
+  }
+
+  .layout-6 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 20px;
+    border: 1px solid;
+    float: right;
+    padding: 1rem;
+    width: 42.5%;
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 943px) {
@@ -646,6 +762,62 @@ form textarea {
     height: 350px;
   }
 
+  .layout-3 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 10px;
+    border: 1px solid;
+    float: left;
+    padding: 1rem;
+    width: 42.5%;
+    height: 350px;
+  }
+
+  .layout-4 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 10px;
+    border: 1px solid;
+    float: right;
+    padding: 1rem;
+    width: 42.5%;
+    height: 350px;
+  }
+
+  .layout-5 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 10px;
+    border: 1px solid;
+    float: left;
+    padding: 1rem;
+    width: 42.5%;
+    height: 350px;
+  }
+
+  .layout-6 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 10px;
+    border: 1px solid;
+    float: right;
+    padding: 1rem;
+    width: 42.5%;
+    height: 350px;
+  }
+
   .foot {
     bottom: 0;
     position: relative;
@@ -738,6 +910,12 @@ form textarea {
     grid-row: 1;
   }
 
+  .item-f {
+    grid-area: info;
+    grid-column: 1;
+    grid-row: 4;
+  }
+
   .line {
     width: 100%;
     margin: 0 auto;
@@ -827,7 +1005,7 @@ form textarea {
     background-repeat: no-repeat;
     font-size: medium;
     display: block;
-    margin: 7.5%;
+    margin: 5% 7.5%;
     border: 1px solid;
     padding: 5%;
     width: 75%;
@@ -840,9 +1018,61 @@ form textarea {
     background-repeat: no-repeat;
     font-size: medium;
     display: block;
-    margin: 7.5%;
+    margin: 5% 7.5%;
     border: 1px solid;
-    padding: 5%m;
+    padding: 5%;
+    width: 75%;
+    height: 300px;
+  }
+
+  .layout-3 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: medium;
+    display: block;
+    margin: 5% 7.5%;
+    border: 1px solid;
+    padding: 5%;
+    width: 75%;
+    height: 300px;
+  }
+
+  .layout-4 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: medium;
+    display: block;
+    margin: 5% 7.5%;
+    border: 1px solid;
+    padding: 5%;
+    width: 75%;
+    height: 300px;
+  }
+
+  .layout-5 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: medium;
+    display: block;
+    margin: 5% 7.5%;
+    border: 1px solid;
+    padding: 5%;
+    width: 75%;
+    height: 300px;
+  }
+
+  .layout-6 {
+    background-image: url(../images/villageuk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: medium;
+    display: block;
+    margin: 5% 7.5%;
+    border: 1px solid;
+    padding: 5%;
     width: 75%;
     height: 300px;
   }
@@ -862,8 +1092,32 @@ form textarea {
     font-size: 140%;
     color: blue;
   }
-
-  form {
-    margin-bottom: 30px;
+  .block {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(179, 174, 174);
   }
+
+  form label {
+    margin: 20px 30px;
+    z-index: 2;
+    position: relative;
+  }
+
+  form input {
+    margin: 10px 30px;
+    line-height: 2;
+    width: 75%;
+    z-index: 2;
+    position: relative;
+  }
+
+  form textarea {
+    margin: 10px 30px;
+    width: 75%;
+    z-index: 2;
+    position: relative;
+  }
+  
 }
