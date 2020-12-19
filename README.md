@@ -52,28 +52,14 @@ To prevent clutter of the page only the esktop wirframes are previewed the rest 
 ---
 ## Features
 
-### Heading
-1. H1 - This is the title of the page and the biggest heading.
-2. H2 - Second biggest heading used and is used for the headings in the sections with the exception of the persons name.
-3. H3 - Used as the heading for the timeline section on the about page.
-4. H4 - This heading is the lowest heading size used on this page and is used for the bottom of the page to title the Social section.
+## Index
 
-### Nav
 
-This is the navigation menu which is presented at the top of the page and has been set to remain in place regardless of screen size. The navigation menu consists of the Home page, an About page and a Portfolio page.
- 
-### Section One
-This section has a backgrund image which has a different image across the three main pages but, the profile image remains the same as well as the name and profile titles. the section also has a Bio related to each page and a mini description regarding the background image.
+## About
 
-### Section Two - News Feed
-The second section on the index.html page it is for the news and updates feed which will have more function at a later time.
+## Portfolio
 
-### Section three - Timeline, Education and work History
-The third section created is on the about.html page and is used for the Education and Work History timeline to present the previous work history and education.
-
-### Footer
-The Footer section contains two parts one for the Social class to direct the user to the social media links and the other part is the Contact Us section which when clicking on the link will open another page to allow the user to send an email if they desire.
-The icons used for the social links are from font awesome.
+## Form
 
 ## Future update plans
 add projects and more content onto the portfolio page, and update news feed to incorporate regular information and updates including patch updates.
@@ -100,6 +86,8 @@ If you want or need to contact me i have added the required information below
 ---
 
 ### Credit
+
+https://github.com/Ash066/starbomb#user-stories - I used this as an inpiration for the user stories.
 
 [villageuk](https://unsplash.com/photos/ZU62GJP-XC4) This image was downloaded from unsplash.com to use as a background for the project images
 
