@@ -95,10 +95,16 @@ I believe it was some incorrectly used code to implement the content and whether
 
 - Clicking on About, Home and Portfolio will take the user to the associated page.
 - Clicking the link for contact us takes the user to a new page to fill out a form to contact via email.
+- When submitting originally it wouldn't inform the user that the form hadn't fully be filled out but after moving around some html in the form pagethe alert to inform the user of the space that needs filling out appears.
 
 The pages viewed in media screens for tablets and laptops are working as planned, and constant cheking of whether each change in size and placement was right.
 The background image and the timeline placements were the hardest to do as the timeline needed to change style and direction as the screens got smaller. 
 The background Image however had to be able to adjust to each screen size with as minimal interferance with the overlaying content as possible.
+
+While testing there was an issue with the footer where it would appear in the middle of the screen instead at the bottom of the page on the portfolio.html and the form.html pages, So after changing different aspects of the footers CSS code i had found it was an issue with the "position" code that had been in place and had found that the issue had started when using absolute and fixed after reverting it back to relative.
+
+There was an issue with the padding on the portfolio.html page which using rem on the "contain" section pushed it past the screen size and removing it would thn fit the content withing the screen and allow adjusting content easier.
+
 
 ---
 
@@ -110,6 +116,8 @@ If you want or need to contact me i have added the required information below
 ---
 
 ### Credit
+
+excellence_mentor - For their insight in the industry and professional view reviewing the project.
 
 https://github.com/Ash066/starbomb#user-stories - I used this as an inpiration for the user stories.
 
