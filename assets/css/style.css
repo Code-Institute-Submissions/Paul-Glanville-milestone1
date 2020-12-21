@@ -443,7 +443,7 @@ section .heading {
 .block {
   max-width: 400px;
   width: 100%;
-  margin: 0 auto;
+  margin: 60px auto;
   background-color: rgb(179, 174, 174);
 }
 
@@ -468,8 +468,9 @@ form textarea {
 }
 
 .button {
-  background-color: red;
-
+  background-color: #555;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1393px) {
