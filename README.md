@@ -117,6 +117,10 @@ If you want or need to contact me i have added the required information below
 
 ### Credit
 
+https://jigsaw.w3.org/css-validator/ - I have used this validator to ensure CSS code is correct and there are no errors
+
+https://validator.w3.org/ - I ave used this validator to ensure HTML code is correct and has no errors.
+
 excellence_mentor - For their insight in the industry and professional view reviewing the project.
 
 https://github.com/Ash066/starbomb#user-stories - I used this as an inpiration for the user stories.
