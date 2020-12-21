@@ -29,6 +29,12 @@ nav a {
   display: block;
 }
 
+
+nav .active{
+    text-decoration: underline;
+    color: rgb(255, 221, 221);
+}
+
 section {
   margin: 0;
   padding: 0;
@@ -162,14 +168,12 @@ section {
 }
 
 .item-d {
-  overflow: scroll;
   grid-area: bio;
   grid-column: 1;
   grid-row: 4/4;
 }
 
 .item-e {
-  overflow: scroll;
   grid-area: info;
   grid-column: 3;
   grid-row: 1;
@@ -900,11 +904,14 @@ form textarea {
   }
 
   .item-three {
+    overflow: scroll;
     grid-area: info;
     grid-column: 1;
     grid-row: 3;
   }
-
+  .item-d{
+    overflow: scroll;
+  }
   .item-e {
     display: none;
     grid-area: info;
