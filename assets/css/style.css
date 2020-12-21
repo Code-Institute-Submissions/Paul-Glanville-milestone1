@@ -162,12 +162,14 @@ section {
 }
 
 .item-d {
+  overflow: scroll;
   grid-area: bio;
   grid-column: 1;
   grid-row: 4/4;
 }
 
 .item-e {
+  overflow: scroll;
   grid-area: info;
   grid-column: 3;
   grid-row: 1;
